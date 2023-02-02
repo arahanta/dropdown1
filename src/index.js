@@ -5,6 +5,7 @@ import App from './App';
 // import {Schedule} from './ScheduleRouting';
 import { BrowserRouter } from 'react-router-dom';
 import { Pricing } from './PricingRouting';
+
 import { StyledLine,StyleDiv } from './Component/styled';
 
 
