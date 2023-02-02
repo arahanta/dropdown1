@@ -1,0 +1,19 @@
+[
+    {
+        "Description":"Welcome to the hostel",
+        "Reviews":"Its awosome hostel",
+        "facilities":[{
+           "Wifi":"Wifi" ,
+           "Laundary":"Laundary",
+           "Parking":"Parking",
+           "Terrace":"Terrace",
+           "CCTV":"CCTV",
+           "Electricity":"Electricity",
+           "HotWater":"Hot water"}
+        ],
+        "Schedule":"Schedule is here",
+        "Pricing":"Pricing is here"
+        }
+]
+
+  
