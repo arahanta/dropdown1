@@ -11,11 +11,26 @@ export const StyleDiv=styled.div`
   margin-top: 0.3rem;
   color:  #382B2F;
   margin-bottom: 0.7rem;
+
+
   &.box
   {
     min-height:35vh;
     width:60vw;
+    display: flex;
+    flex-direction: row;
   }
+ 
+  &.right_box
+  {
+    max-width: 38vw;
+    max-height: 35vh;
+  }
+  &.left_box
+  {
+    padding-left: 1rem;
+  }
+
   width:60vw;
   &.left
   {
@@ -45,15 +60,16 @@ margin-bottom: 0.7rem;
 &.left
 {
  
-    display: inline-flex;
+  display: inline-flex;
   float :left;
   width:27vw;
   flex-direction: row;
   padding-left: 2rem;
   justify-content: space-between;
-
-  /* margin-top: 5px;  */
+  margin-top: 5px; 
   color: #382B2F;
+  margin-bottom: -0.5rem;
+  
 }
 &.right
 {
@@ -63,6 +79,8 @@ margin-bottom: 0.7rem;
   margin-right: 2rem;
   color: #382B2F;
   width: 28vw;
+  margin-bottom: -0.5rem;
+ 
   
 }
 &.leftbox
@@ -137,7 +155,9 @@ list-style:none;
 
 `
  export const StyledLine=styled.hr`
- width:60vw;
+ width:55.5vw;
+ margin-left: 1.8rem; 
+ /* margin-top: -0.5rem; */
   height: 2px;
   border: 0 none;
   background-color:#382B2F ;
@@ -155,4 +175,17 @@ margin-left: 2rem;
 font-size: 1rem;
 font-family: Helvetica, Sans-Serif;
 color:  #382B2F;
+  flex-direction: column;
+  align-items: flex-start;
+  &.hostel_name_location
+  {
+    padding-left: 1rem;
+    /* border: 3px solid red; */
+  }
+  &.hostel_name {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom:0.25rem;
+    margin-left:-4px;
+  }
 `

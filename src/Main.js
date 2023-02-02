@@ -6,7 +6,7 @@ import {StyleDiv,StyledSpan,StyledLink}  from "./Component/styled";
 import { useState, useEffect, useRef } from "react";
 
 
-function App() {
+function Main() {
   const [isActive, setIsActive] = useState(false);
   const node = useRef(null);
 
@@ -29,12 +29,13 @@ function App() {
   return (
     <>
       <StyleDiv>
+       
       <StyledSpan className="left">
 
           
             <StyledLink to="/description" onClick={handleClick}>Description</StyledLink>
             
-            <StyledLink to="/offer" onClick={handleClick}>Offer</StyledLink>
+            <StyledLink to="/offer" onClick={handleClick}>What We Offer</StyledLink>
          
             <StyledLink to="/reviews" onClick={handleClick}>Reviews</StyledLink>
          
@@ -42,9 +43,9 @@ function App() {
             
       </StyledSpan>
       <StyledSpan className="right">
-        Jan 2023
-
+        Published on Jan 2023
       </StyledSpan>
+     
      
 
       <Routes>
@@ -59,4 +60,4 @@ function App() {
   );
 }
 
-export default App;
+export default Main;

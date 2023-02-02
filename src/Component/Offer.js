@@ -12,7 +12,7 @@ import {
   GiWashingMachine,
 } from "react-icons/gi";
 
-import { StyledSpan,StyleDiv } from "./styled";
+import { StyledSpan} from "./styled";
 //style
 const style = {
   color: "#D179FF",
@@ -22,7 +22,7 @@ const style = {
 export default function Offer() {
   return (
     <>
-    <StyleDiv></StyleDiv>
+   
     <StyledLine/>
       {Records &&
         Records.map((record) => {
